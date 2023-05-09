@@ -18,7 +18,6 @@ function App() {
   //getting the whole background to toggle.
   useEffect(() => {
     document.body.style.background = theme.background;
-    
   }, [theme]);
 
   return (
