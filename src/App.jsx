@@ -3,7 +3,7 @@ import Card from './components/Card';
 import Button from './components/Button';
 import ToggleSwitch from './components/ToggleSwitch';
 import { ThemeContext, themes } from './themeContext';
-import { useState, useEffect, useContext } from 'react';
+import { useState, useEffect } from 'react';
 
 function App() {
 
